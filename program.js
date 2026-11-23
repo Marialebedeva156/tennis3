@@ -1,0 +1,74 @@
+const shopData = [
+  {
+    "id": "1",
+    "title": "Теннисная ракетка",
+    "vendor_code": "TEN001",
+    "description": "Ракетка для тренировок и матчей",
+    "price": 6900,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_Racket_and_Balls.jpg?width=600"
+  },
+  {
+    "id": "2",
+    "title": "Набор мячей",
+    "vendor_code": "TEN002",
+    "description": "Три мяча для игры",
+    "price": 650,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cans_of_tennis_balls.jpg?width=600"
+  },
+  {
+    "id": "3",
+    "title": "Спортивная сумка",
+    "vendor_code": "TEN003",
+    "description": "Для ракетки и формы",
+    "price": 3200,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilson_Sporting_Goods_orange_tennis_bagA.jpg?width=600"
+  },
+  {
+    "id": "4",
+    "title": "Напульсники",
+    "vendor_code": "TEN004",
+    "description": "Для комфортной тренировки",
+    "price": 490,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Overgrips.JPG?width=600"
+  },
+  {
+    "id": "5",
+    "title": "Теннисные кроссовки",
+    "vendor_code": "TEN005",
+    "description": "Обувь для корта",
+    "price": 5800,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_racquets_in_store_20190630.jpg?width=600"
+  },
+  {
+    "id": "6",
+    "title": "Спортивная бутылка",
+    "vendor_code": "TEN006",
+    "description": "Вода всегда под рукой",
+    "price": 790,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_Balls_Pressurised_Cans.jpg?width=600"
+  },
+  {
+    "id": "7",
+    "title": "Кепка",
+    "vendor_code": "TEN007",
+    "description": "Защита от солнца",
+    "price": 1200,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_Racquets_and_Balls_on_a_Clay_Court.jpg?width=600"
+  },
+  {
+    "id": "8",
+    "title": "Полотенце",
+    "vendor_code": "TEN008",
+    "description": "Для занятий спортом",
+    "price": 850,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_ball_on_tennis_court_20170619.jpg?width=600"
+  },
+  {
+    "id": "9",
+    "title": "Струны для ракетки",
+    "vendor_code": "TEN009",
+    "description": "Для перетяжки ракетки",
+    "price": 1100,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis-bespannen.jpg?width=600"
+  }
+];

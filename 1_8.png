@@ -1,0 +1,38 @@
+const programData = {
+  "program": {
+    "title": "Юриспруденция: цифровой юрист",
+    "description": "Образовательная программа НИУ ВШЭ сочетает юридическую подготовку с изучением цифровых технологий и регулирования цифровой среды.",
+    "details": "Студенты изучают юридические дисциплины и правовые вопросы, связанные с информацией, персональными данными и современными технологиями.",
+    "programUrl": "https://www.hse.ru/ba/dlawyer/"
+  },
+  "people": [
+    {
+      "role": "Студент образовательной программы",
+      "name": "Лебедева Мария Георгиевна",
+      "email": "mglebedeva@edu.hse.ru",
+      "photo": "./images/avatar.jpeg",
+      "alt": "Фото студентки",
+      "note": "Группа БЮРЦЮ252. Контрольная работа №1 и №2.",
+      "siteUrl": "https://github.com/vmarshirov/g06u28/tree/main/task_01",
+      "secondUrl": "https://github.com/vmarshirov/g06u28/blob/main/task_02/ReadMe.md"
+    },
+    {
+      "role": "Академический руководитель образовательной программы",
+      "name": "Журавлев Михаил Сергеевич",
+      "email": "mzhuravlev@hse.ru",
+      "photo": "./images/zhuravlev.jpeg",
+      "alt": "Фото руководителя",
+      "note": "Доцент факультета права НИУ ВШЭ, департамент права цифровых технологий и биоправа. Работает в НИУ ВШЭ с 2012 года.",
+      "siteUrl": "https://www.hse.ru/staff/mikhail_zhuravlev/"
+    },
+    {
+      "role": "Менеджер образовательной программы",
+      "name": "Лященко Даниил Андреевич",
+      "email": "dlyashchenko@hse.ru",
+      "photo": "./images/lyashchenko.jpeg",
+      "alt": "Фото менеджера",
+      "note": "Менеджер образовательной программы «Юриспруденция: цифровой юрист».",
+      "siteUrl": "https://www.hse.ru/org/persons/925436656/"
+    }
+  ]
+};
