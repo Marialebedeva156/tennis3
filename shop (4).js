@@ -1,153 +1,33 @@
-* {
-  margin: 0.2rem;
-}
-
-/* .container {
-  margin: 0 auto; 
-  max-width: 900px;
-} */
-
-h5 {
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-h6 {
-  font-size: 1.0rem;
-  margin: 0.1rem;
-}
-
-
-
-header,
-nav,
-main,
-footer {
-  padding: 1rem;
-  border: 1px solid #ccc;
-}
-
-header {
-  background-image: url(../images/background.jpg);
-  background-size: cover;
-}
-
-
-/* Ссылки */
-
-a {
-  color: rgb(0, 174, 255);
-}
-
-.active {
-  background-color: #ddd;
-}
-
-/* Навигация */
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-}
-
-ul a {
-  display: block;
-  padding: .5rem;
-  border: 1px solid #ccc;
-}
-
-
-/* Формы */
-label {
-  display: block;
-  margin-bottom: 1.2rem;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-select {
-  display: block;
-  width: 80%;
-  padding: .3rem;
-}
-
-/* Товары (#node_for_insert)*/
-#node_for_insert {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#node_for_insert li {
-  display: flex;
-  flex-direction: column;
-  width: 210px;
-  margin: 1.0rem;
-  padding: 1.0rem;
-  border: 1px solid #ccc;
-}
-
-#node_for_insert img {
-  align-self: center;
-  height: 150px;
-}
-
-#node_for_insert input[type="number"] {
-  width: 2.0rem;
-}
-
-
-
-/* Участники (#people-list) */
-#people-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#people-list>div {
-  display: flex;
-  flex-direction: column;
-  margin: .25rem;
-  padding: .25rem;
-  border: 1px solid #ccc;
-}
-
-#people-list>div {
-  width: min-content;
-}
-
-#people-list img {
-  align-self: center;
-  height: 250px;
-}
-
-.margin_01rem {
-  margin: 0.1rem;
-}
-
-/* 
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  body {
-    background-color: red;
-  }
-} */
-/* Цвет сайта и удобство на телефоне */
-body { font-family: Arial, sans-serif; }
-.container { max-width: 1000px; margin: auto; }
-header { background: #24583a; color: white; }
-a { color: #24583a; }
-.active { background: #cde4d1; }
-#people-list > div { width: 230px; overflow-wrap: anywhere; }
-#people-list img { width: 210px; height: 220px; object-fit: cover; }
-#node_for_insert img { max-width: 100%; object-fit: contain; }
-@media (max-width: 600px) {
- nav ul { flex-direction: column; padding: 0; }
- #people-list > div { width: 90%; }
- #node_for_insert li { width: 90%; }
- input[type="text"], input[type="email"] { max-width: 95%; }
-}
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Теннисный магазин — Мир тенниса</title>
+<link rel="stylesheet" href="./css/my.css">
+</head>
+<body>
+<div class="container">
+<header><h5>Мир тенниса 🎾</h5></header>
+<nav><ul><li><a href="./index.html">Главная</a></li>
+<li><a href="./form.html">Запись на тренировку</a></li>
+<li><a class="active" aria-current="page" href="./shop.html">Теннисный магазин</a></li>
+<li><a href="./program.html">Образовательная программа</a></li></ul></nav>
+<main><h5 id="top_of_page">Теннисный магазин</h5>
+<a href="#section_1">На раздел 1</a> <a href="#section_2">На раздел 2</a>
+<h6 id="section_1">Раздел 1. Каталог</h6>
+<form action="https://www.bing.com/search" method="get" target="_blank">
+<input type="hidden" name="q" value="теннисный магазин товары">
+<ul id="node_for_insert"></ul>
+<button type="submit">Отправить выбранное</button>
+</form>
+<a href="#top_of_page">К началу страницы</a>
+<h6 id="section_2">Раздел 2. Как выбрать инвентарь</h6>
+<p>Новичкам лучше начинать с удобной ракетки и подходящих кроссовок. Для тренировок пригодятся мячи, вода и спортивная сумка.</p>
+<a href="#top_of_page">К началу страницы</a></main>
+<footer><p>© 2026 Мир тенниса · Лебедева Мария Георгиевна · БЮРЦЮ252</p></footer>
+</div>
+<script src="./data/shop.js"></script>
+    <script src="./js/shop.js"></script>
+</body>
+</html>
